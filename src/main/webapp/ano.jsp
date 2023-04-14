@@ -11,6 +11,8 @@
     <title>Ano</title>
     <link rel="stylesheet" href="boot.css">
     <link rel="stylesheet" href="style.css">
+
+    <script src="App.js"></script>
 </head>
 <body>
 
@@ -48,14 +50,25 @@
       </div>
     </div>
     <div class="dash_content_box">
-      <form action="">
+      <div>
         <label>
           <span>Ano:</span>
-          <input type="text">
+          <select id="selcAno">
+            <option value="opcao">Opções</option>
+            <option value="maior">maior que</option>
+            <option value="menor">menor que</option>
+            <option value="igual">igual</option>
+          </select>
+          <input type="text" id="ano" name="ano">
         </label>
-        <button class="btn btn-green">Pesquisar</button>
-      </form>
+        <button onclick="pesquisaAno()" class="btn btn-green">Pesquisar</button>
+      </div>
     </div>
+    <table>
+      <tbody>
+
+      </tbody>
+    </table>
   </section>
 </div>
 </body>

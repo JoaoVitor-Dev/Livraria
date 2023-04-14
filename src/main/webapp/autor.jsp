@@ -11,19 +11,21 @@
     <title>Autor</title>
     <link rel="stylesheet" href="boot.css">
     <link rel="stylesheet" href="style.css">
+
+    <script src="App.js"></script>
 </head>
 <body>
 
 <div class="dash">
     <aside class="dash_sidebar">
-        <article class="dash_sidebar_user">
-            <div>
-                <img src="livraria.png" alt="" width="50">
-            </div>
-            <h3 class="dash_sidebar_user_name">
-                <a href="">Livraria</a>
-            </h3>
-        </article>
+            <article class="dash_sidebar_user">
+                <div>
+                    <img src="livraria.png" alt="" width="50">
+                </div>
+                <h3 class="dash_sidebar_user_name">
+                    <a href="">Livraria</a>
+                </h3>
+            </article>
         <ul class="dash_sidebar_nav">
             <li class="dash_sidebar_nav_li">
                 <a href="titulo.jsp">Título</a>
@@ -48,14 +50,19 @@
             </div>
         </div>
         <div class="dash_content_box">
-            <form action="">
+            <div>
                 <label>
                     <span>Autor:</span>
-                    <input type="text">
+                    <input type="text" name="autor" id="autor">
                 </label>
-                <button class="btn btn-green">Pesquisar</button>
-            </form>
+                <button onclick="pesquisaAutor()" class="btn btn-green">Pesquisar</button>
+            </div>
         </div>
+        <table>
+            <tbody>
+
+            </tbody>
+        </table>
     </section>
 </div>
 </body>

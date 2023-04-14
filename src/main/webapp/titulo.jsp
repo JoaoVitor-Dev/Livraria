@@ -11,6 +11,8 @@
     <title>Titulo</title>
     <link rel="stylesheet" href="boot.css">
     <link rel="stylesheet" href="style.css">
+
+    <script src="App.js"></script>
 </head>
 <body>
 
@@ -48,14 +50,20 @@
             </div>
         </div>
         <div class="dash_content_box">
-            <form action="">
+            <div>
                 <label>
                     <span>Título:</span>
-                    <input type="text">
+                    <input type="text" name="titulo" id="titulo">
                 </label>
-                <button class="btn btn-green">Pesquisar</button>
-            </form>
+                <button onclick="pesquisaTitulo()" class="btn btn-green">Pesquisar</button>
+            </div>
         </div>
+        <table>
+            <tbody>
+
+            </tbody>
+        </table>
+
     </section>
 </div>
 </body>

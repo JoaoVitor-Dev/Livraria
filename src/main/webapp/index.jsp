@@ -5,6 +5,8 @@
     <title>Livraria</title>
     <link rel="stylesheet" href="boot.css">
     <link rel="stylesheet" href="style.css">
+
+    <script src="App.js"></script>
 </head>
 <body>
 <div class="dash">
